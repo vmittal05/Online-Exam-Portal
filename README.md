@@ -2,7 +2,7 @@
 Provides user the facility to register on the portal and take a timed online exam.
 Built by using Java Servlets, JDBC and JSP.
 
-##Features:
+## Features:
 1. Register and take a timed quiz on Java Basics.
 2. View your results.
 3. Signup and Login functionalities using Cookies.
