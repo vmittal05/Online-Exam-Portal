@@ -21,7 +21,7 @@ public class Result extends HttpServlet  {
 	        String q5=request.getParameter("q5");
 	        int marks=0;
 	        if(q1==null&&q2==null&&q3==null&&q4==null&&q5==null) {
-	        	pw.println("<font color=red><b>Looks like you didn't select an option any of the questions !!</b></font>");
+	        	pw.println("<font color=red><b>Looks like you didn't select an option for any of the questions !!</b></font>");
 	        	request.getRequestDispatcher("final.html").include(request, response);
 	        }else {
 	        try {
