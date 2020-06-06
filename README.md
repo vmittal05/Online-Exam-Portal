@@ -3,8 +3,9 @@ Provides user the facility to register on the portal and take a timed online exa
 Built by using Java Servlets, JDBC and JSP.
 ## How to Run:
 1. Install mysql and create a database named ajp.
-2. Create a table named register.
-Schema:
+2. Create a table named register.<br />
+Schema:<br />
+
 | Field  | Type        | Null | Key | Default | Extra |
 |--------|-------------|------|-----|---------|-------|
 | enroll | int(10)     | NO   | PRI | NULL    |       |
