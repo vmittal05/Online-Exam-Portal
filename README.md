@@ -6,7 +6,7 @@ Built by using Java Servlets, JDBC and JSP.
 2. Create a table named register.
 Schema:
 | Field  | Type        | Null | Key | Default | Extra |
-|--------|:-----------:|:----:|:---:|:-------:|------:|
+|--------|-------------|------|-----|---------|-------|
 | enroll | int(10)     | NO   | PRI | NULL    |       |
 | fname  | varchar(20) | YES  |     | NULL    |       |
 | lname  | varchar(20) | YES  |     | NULL    |       |
