@@ -2,8 +2,7 @@
 <script>
 <!--
 <%
-String clock = request.getParameter( "clock" );
-if( clock == null ) clock = "100";
+String clock = "100";
 %>
 var timeout = <%=clock%>;
 function timer()
