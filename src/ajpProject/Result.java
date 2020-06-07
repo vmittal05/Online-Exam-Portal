@@ -13,7 +13,17 @@ public class Result extends HttpServlet  {
 	{ 
 	        response.setContentType("text/html");
 	        PrintWriter pw = response.getWriter();
-	    
+	        String msg=request.getParameter("clock");
+	        boolean flag=false;
+	        try {
+	        	Integer.parseInt(msg);
+	        	flag=true;
+	        }
+	        catch(Exception e) {
+	        	e.printStackTrace();
+	        }
+	        if(!flag)
+	        	pw.println("<font color=red><b>"+msg+ "!!</b></font><br>");
 	        String q1=request.getParameter("q1");
 	        String q2=request.getParameter("q2");
 	        String q3=request.getParameter("q3");
