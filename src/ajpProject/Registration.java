@@ -92,7 +92,7 @@ public class Registration extends HttpServlet {
 				 st.close(); 
 				 con.close(); 
 				 PrintWriter out = response.getWriter(); 
-				 out.println("<html><body><b><font color='green'>Successfully Inserted"+"</font></b></body></html>"); 
+				 out.println("<html><body><b><font color='green'>Record Successfully Created"+"</font></b></body></html>"); 
 				 RequestDispatcher rd=request.getRequestDispatcher("/login.html");
 				 rd.include(request, response);
 			// Close all the connections 
