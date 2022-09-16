@@ -8,6 +8,13 @@ Built by using Java Servlets, JDBC and JSP.
 3. Signup and Login functionalities using Cookies.
 4. Fully validated forms for signup, login etc.
 
+## Demo Video:
+
+
+https://user-images.githubusercontent.com/41340985/190709060-ca018d5e-ea9b-4592-907f-ebb2050afe43.mp4
+
+
+
 ## How to Run:
 1. Install mysql and create a database named ajp.
 2. Create a table named register.<br />
